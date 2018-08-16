@@ -20,6 +20,5 @@ module.exports = {
   FromPgn: require('./lib/fromPgn').Parser,
   toPgn: require('./lib/toPgn').toPgn,
   toActisenseSerialFormat: require('./lib/toPgn').toActisenseSerialFormat,
-  pgnToActisenseSerialFormat: require('./lib/toPgn').pgnToActisenseSerialFormat,
-  canbus: require('./lib/canbus')
+  pgnToActisenseSerialFormat: require('./lib/toPgn').pgnToActisenseSerialFormat
 }
